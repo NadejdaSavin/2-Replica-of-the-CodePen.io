@@ -1,0 +1,10 @@
+/* Common styles */
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spacer15 {
+    height: 15px;
+    width: 100%;
+}

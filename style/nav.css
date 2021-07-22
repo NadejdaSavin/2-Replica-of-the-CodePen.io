@@ -1,0 +1,121 @@
+    /* Common nav styles */
+    .navigation-wrapper {
+    height: 60px;
+    background-color: black;
+    color:#cbcbcb;
+   
+    /* Flexbox container */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    }
+
+ /* Left column styles */
+    .navigation-wrapper > .left-column {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .navigation-wrapper > .left-column > .logo img{
+        margin-right: 40px;
+        width: 150px
+    }
+
+    .navigation-wrapper > .left-column > .nav-bar > .explore {
+        color: #cea135;
+        margin-left: 13px;
+    }
+    .navigation-wrapper > .left-column > .nav-bar > .links-wrapper {
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .navigation-wrapper > .left-column > .nav-bar > .links-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 4px;
+        width: 200px;
+    }
+    .links-wrapper > .nav-link {
+        width: 60px;
+        text-align: center;
+    }
+    
+    .links-wrapper > .nav-link a {
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        text-decoration: none;
+        transition: 0s;
+    }
+    
+    .links-wrapper > .nav-link a:hover {
+        color:#cea135;
+    }
+
+/* center */
+    .center-column > .spark {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+        width: 40px;
+    }
+
+
+/* right */
+
+    .right-column > .button {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2px;
+        width: 400px;
+    }
+    .right-column > .button > .create  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+        padding: 10px 20px;
+        background-color: #36383f;
+        color: white;
+        width: 50px;
+        border-radius: 3px;
+    }
+
+    .right-column > .button > .create i {
+        color: green;
+    }
+
+    .right-column > .button > .search-icon {
+        font-size: 1.5em;
+        margin: 5px 27px;
+    
+    }
+
+
+    .right-column > .button > .log-in, .sign-up  {
+        padding: 10px 13px;
+        background-color: #36383f;
+        color: white;
+        width: 50px;
+        border-radius: 3px;
+        white-space:nowrap;
+    }
+
+
+
+    /* Footer */
+    .footer > .table table {
+    
+    border: 2px solid #656566;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: #36383f;
+    color: white;
+    font-size: 1.5em;
+    }
+
+    .footer > .space {
+        height: 135px;
+        background-color: #191a1d ;
+    }
